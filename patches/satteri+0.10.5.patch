@@ -1,0 +1,41 @@
+diff --git a/node_modules/satteri/browser.js b/node_modules/satteri/browser.js
+index 156c6f1..f055a3c 100644
+--- a/node_modules/satteri/browser.js
++++ b/node_modules/satteri/browser.js
+@@ -1 +1,35 @@
+-export * from '@bruits/satteri-wasm32-wasi'
++const applyCommandsAndCompileHandle = function(){};
++const applyCommandsAndConvertToHastHandle = function(){};
++const applyCommandsAndRenderHandle = function(){};
++const applyCommandsToHandle=function(){};
++const applyCommandsToMdastHandle=function(){};
++const applyMdastCommandsAndConvertAndCompile = function(){};
++const applyMdastCommandsAndConvertAndRender = function(){};
++const compileHandle = function(){};
++const compileMdx = function(){};
++const convertMdastToHastHandle = function(){};
++const createHastHandle = function(){};
++const createHastHandleFromHtml = function(){};
++const createHastHandleWithFrontmatter = function(){};
++const createMdastHandle = function(){};
++const createMdxHastHandle = function(){};
++const createMdxHastHandleWithFrontmatter = function(){};
++const createMdxMdastHandle = function(){};
++const dropHandle = function(){};
++const getHandleSource = function(){};
++const getMdastFrontmatter = function(){};
++const getNodeData = function(){};
++const markdownToHtmlFast = function(){};
++const markdownToJsFast = function(){};
++const mdastTextContentHandle = function(){};
++const mdxToJsFast = function(){};
++const parseEsm = function(){};
++const parseExpression = function(){};
++const parseToHtml = function(){};
++const renderHandle = function(){};
++const serializeHandle = function(){};
++const setNodeData = function(){};
++const textContentHandle = function(){};
++const walkHandle = function(){};
++const walkMdastHandle = function(){};
++export {applyCommandsAndCompileHandle, applyCommandsAndConvertToHastHandle, applyCommandsAndRenderHandle, applyCommandsToHandle, applyCommandsToMdastHandle, applyMdastCommandsAndConvertAndCompile, applyMdastCommandsAndConvertAndRender, compileHandle, compileMdx, convertMdastToHastHandle, createHastHandle, createHastHandleFromHtml, createHastHandleWithFrontmatter, createMdastHandle, createMdxHastHandle, createMdxHastHandleWithFrontmatter, createMdxMdastHandle, dropHandle, getHandleSource, getMdastFrontmatter, getNodeData, markdownToHtmlFast, markdownToJsFast, mdastTextContentHandle, mdxToJsFast, parseEsm, parseExpression, parseToHtml, renderHandle, serializeHandle, setNodeData, textContentHandle, walkHandle, walkMdastHandle}
