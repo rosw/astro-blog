@@ -1,0 +1,13 @@
+:root {
+  /* 亮色模式主色调 */
+  --sl-color-accent-low: #e6f7ff;
+  --sl-color-accent: #1890ff;
+  --sl-color-accent-high: #0050b3;
+}
+
+:root[data-theme='dark'] {
+  /* 暗色模式主色调 */
+  --sl-color-accent-low: #111b26;
+  --sl-color-accent: #40a9ff;
+  --sl-color-accent-high: #91d5ff;
+}

@@ -1,13 +1,15 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import cloudflare from '@astrojs/cloudflare';
 
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Rosw 的AI学习分享',
+            customCss: ['./src/styles/custom-theme.css'],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/rosw/astro-blog' }],
 			sidebar: [
 				{
 					label: 'Guides',
@@ -23,4 +25,5 @@ export default defineConfig({
 			],
 		}),
 	],
+    adapter: cloudflare()
 });
