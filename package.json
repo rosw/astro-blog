@@ -5,18 +5,15 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "prebuild": "git apply --ignore-whitespace patches/satteri+0.10.5.patch",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "postinstall": "patch-package"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^14.4.3",
     "@astrojs/starlight": "^0.42.8",
     "astro": "^7.2.10",
     "sharp": "^0.35.3"
-  },
-  "devDependencies": {
-    "patch-package": "^8.0.1"
   }
 }
